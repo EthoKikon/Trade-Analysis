@@ -48,46 +48,44 @@ Trade-Analysis/
    ```bash
    jupyter lab
 
-```text
-📒 How to Reproduce
-00_setup_env.ipynb
+📒 ## **How to Reproduce**
+1. **00_setup_env.ipynb**
 
-Install imports, set up folder structure, copy raw files to D2/.
+   - Install imports, set up folder structure, copy raw files to D2/.
 
-01_data_ingestion.ipynb
+2. **01_data_ingestion.ipynb**
 
-Load CSVs, parse timestamps, rename/drop columns, save Parquet.
+   - Load CSVs, parse timestamps, rename/drop columns, save Parquet.
 
-02_eda.ipynb
+3. **02_eda.ipynb**
 
-Plot sentiment over time, PnL distributions, merge data, bar charts, rolling correlations.
+   - Plot sentiment over time, PnL distributions, merge data, bar charts, rolling correlations.
 
-03_feature_engineering.ipynb
+4. **03_feature_engineering.ipynb**
 
-Build sentiment lags/rolls, trade/account aggregates, save feature matrix.
+   - Build sentiment lags/rolls, trade/account aggregates, save feature matrix.
 
-04_analysis_modeling.ipynb
+5. **04_analysis_modeling.ipynb**
 
-Run ANOVA + Tukey test, train & evaluate Random Forest classifier.
+   - Run ANOVA + Tukey test, train & evaluate Random Forest classifier.
 
-05_insights_report.ipynb
+6. **05_insights_report.ipynb**
 
-Read through the narrative, review tables & charts, and export to PDF.
+   - Read through the narrative, review tables & charts, and export to PDF.
 
-📈 Key Findings
-Mean PnL differs by sentiment (ANOVA p < 0.001).
+📈 ## **Key Findings**
+- Mean PnL differs by sentiment (ANOVA p < 0.001).
 
-Extreme Greed vs. Extreme Fear: $33 higher average profit in Greed days.
+- Extreme Greed vs. Extreme Fear: $33 higher average profit in Greed days.
 
-Win‑rate lift: 37 % → 46 % from Fear → Greed.
+- Win‑rate lift: 37 % → 46 % from Fear → Greed.
 
-Predictive model: Random Forest with ROC‑AUC = 0.87.
+- Predictive model: Random Forest with ROC‑AUC = 0.87.
 
-Top drivers: Trader win‑rate, average size, buy/sell bias; sentiment adds ~18 %.
+- Top drivers: Trader win‑rate, average size, buy/sell bias; sentiment adds ~18 %.
 
-📝 Notes & Next Steps
-The core assignment did not require modeling—models are provided as a bonus.
+📝 ## **Notes & Next Steps**
+- The core assignment did not require modeling—models are provided as an additional analysis.
 
 To extend: integrate live price volatility, explore coin‑level effects, build an interactive dashboard.
 
-```
