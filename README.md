@@ -9,7 +9,7 @@ Our goals:
 - Clean and merge these datasets  
 - Uncover patterns (e.g. average profit & win‑rate by sentiment)  
 - Statistically confirm differences (ANOVA & Tukey HSD)  
-- (Bonus) Build a simple Random Forest to classify winning vs. losing trades  
+- (Additional Analysis) Build a simple Random Forest to classify winning vs. losing trades  
 
 ## 📂 Repository Structure  
 ```text
