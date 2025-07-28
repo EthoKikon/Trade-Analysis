@@ -48,6 +48,7 @@ Trade-Analysis/
    ```bash
    jupyter lab
 
+```text
 📒 How to Reproduce
 00_setup_env.ipynb
 
@@ -89,3 +90,4 @@ The core assignment did not require modeling—models are provided as a bonus.
 
 To extend: integrate live price volatility, explore coin‑level effects, build an interactive dashboard.
 
+```
