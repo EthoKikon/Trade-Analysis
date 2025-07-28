@@ -12,27 +12,28 @@ Our goals:
 - (Bonus) Build a simple Random Forest to classify winning vs. losing trades  
 
 ## 📂 Repository Structure  
+```text
 Trade-Analysis/
-├── D1/ Raw CSVs (never edit)
-│ ├── fear_greed_index.csv
-│ └── historical_data.csv
-├── D2/ Working copies of raw data
+├── D1/                          
+│   ├── fear_greed_index.csv     # Raw sentiment CSV (do not edit)
+│   └── historical_data.csv      # Raw trades CSV  (do not edit)
+├── D2/                          # Working copies of D1 files
 ├── data/
-│ ├── clean_sentiment.parquet
-│ ├── clean_trades.parquet
-│ └── features/
-│ └── trade_features.parquet
+│   ├── clean_sentiment.parquet  # Cleaned sentiment data
+│   ├── clean_trades.parquet     # Cleaned trades data
+│   └── features/
+│       └── trade_features.parquet  # Engineered feature matrix
 ├── notebooks/
-│ ├── 00_setup_env.ipynb Setup environment & directories
-│ ├── 01_data_ingestion.ipynb Load & clean raw data
-│ ├── 02_eda.ipynb Exploratory Data Analysis
-│ ├── 03_feature_engineering.ipynb Create lag, rolling, aggregate features
-│ ├── 04_analysis_modeling.ipynb ANOVA & Random Forest classification
-│ └── 05_insights_report.ipynb Final narrative & key takeaways
+│   ├── 00_setup_env.ipynb           # Environment setup & folder init
+│   ├── 01_data_ingestion.ipynb      # Load & clean raw data → Parquet
+│   ├── 02_eda.ipynb                 # Exploratory data analysis & visuals
+│   ├── 03_feature_engineering.ipynb # Create lag, rolling, aggregate features
+│   ├── 04_analysis_modeling.ipynb   # ANOVA & Random Forest classification
+│   └── 05_insights_report.ipynb     # Narrative report with key findings
 ├── docs/
-│ ├── data_dictionary.md Column definitions
-│ └── insights_report.md Written report version
-└── environment.yml Conda environment specification
+│   ├── data_dictionary.md         # Column definitions & descriptions
+│   └── insights_report.md         # Written report (exportable to PDF)
+└── environment.yml                # Conda environment specification
 
 ## ⚙️ Installation & Setup  
 1. **Clone the repo**  
