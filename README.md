@@ -34,7 +34,7 @@ Trade-Analysis/
 │   ├── data_dictionary.md         # Column definitions & descriptions
 │   └── insights_report.md         # Written report (exportable to PDF)
 └── environment.yml                # Conda environment specification
-
+```
 ## ⚙️ Installation & Setup  
 1. **Clone the repo**  
    ```bash
