@@ -31,18 +31,6 @@ Trade-Analysis/
 │   ├── 04_analysis_modeling.ipynb   # ANOVA & Random Forest classification
 │   └── 05_insights_report.ipynb     # Narrative report with key findings
 ```
-## ⚙️ Installation & Setup  
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/EthoKikon/Trade-Analysis.git
-   cd Trade-Analysis
-2. **Create the Environment**
-   ```bash
-   conda env create -f environment.yml
-   conda activate trade-analysis
-4. **Launch Jupyter Lab**
-   ```bash
-   jupyter lab
 
 📒 ## **How to Reproduce**
 1. **00_setup_env.ipynb**
