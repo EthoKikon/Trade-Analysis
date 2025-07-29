@@ -30,10 +30,6 @@ Trade-Analysis/
 │   ├── 03_feature_engineering.ipynb # Create lag, rolling, aggregate features
 │   ├── 04_analysis_modeling.ipynb   # ANOVA & Random Forest classification
 │   └── 05_insights_report.ipynb     # Narrative report with key findings
-├── docs/
-│   ├── data_dictionary.md         # Column definitions & descriptions
-│   └── insights_report.md         # Written report (exportable to PDF)
-└── environment.yml                # Conda environment specification
 ```
 ## ⚙️ Installation & Setup  
 1. **Clone the repo**  
